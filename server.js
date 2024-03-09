@@ -13,11 +13,11 @@ app.get('/', (req, res) => {
 app.get('/books', (req, res) => {
   res.json(books)
 })
-/*
+
 app.get('/books/:id', (req, res) => {
   res.json(books.find(book => book.id === req.params.id))
 })
-
+/*
 app.post('/books', (req, res) => {
   books.push(req.body)
   res.status(201).json(req.body)
